@@ -1,12 +1,14 @@
 {
-  "name": "minecraft-bots-massive",
+  "name": "minecraft-pvp-bot",
   "version": "1.0.0",
-  "description": "Massive Minecraft bots",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "mineflayer": "^4.14.0"
+    "mineflayer": "^4.14.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-pvp": "^1.3.2",
+    "mineflayer-auto-eat": "^2.3.2"
   }
 }
